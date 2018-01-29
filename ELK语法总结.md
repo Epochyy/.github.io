@@ -9,3 +9,7 @@
 1. curl -X PUT 'http://localhost:9200/indexname/
 + 查
 1. curl -X GET 'http://localhost:9200/_search?pretty'
+
+### 增加密码验证
++ 查
+1. curl  --user elastic:123456 -XPUT  'http://localhost:9200/_search?pretty'
