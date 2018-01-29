@@ -1,6 +1,6 @@
 ## ELK
 ### Elasticsearch
-#### 增删改查
+### 增删改查
 + 增
 1. curl -X PUT 'http://localhost:9200/indexname/_create'
 + 删
