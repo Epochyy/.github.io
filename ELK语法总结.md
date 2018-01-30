@@ -50,11 +50,10 @@ GET _search
   }
 }
 ```
-    *gt 大于
-    gte 大于等于
-    lt 小于
-    lte 小于等于*
-
+*gt 大于
+gte 大于等于
+lt 小于
+lte 小于等于*
 
 + term
 ```
