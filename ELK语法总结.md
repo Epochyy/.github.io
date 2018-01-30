@@ -49,4 +49,37 @@ GET _search
     }
   }
 }
+gt 大于
+gte 大于等于
+lt 小于
+lte 小于等于
+```
+
++ term
+```
+GET _search
+{
+  "query":{
+    "term": { "instrumentid": 10001104}
+  }
+}
+```
++ terms
+```
+GET _search
+{
+  "query":{
+    "terms": { "instrumentid": [10001104,10001101] }
+  }
+}
+```
++ exists
+```
+
+```
++ missing
+
+    *exists 查询和 missing 查询被用于查找那些指定字段中有值 (exists) 或无值 (missing) 的文档。这与SQL中的 IS_NULL (missing) 和 NOT IS_NULL (exists) 在本质上具有共性*
+```
+
 ```
