@@ -83,3 +83,8 @@ GET _search
 ```
 
 ```
+
+## 修改密码
+```
+bin/x-pack/setup-passwords interactive
+```
