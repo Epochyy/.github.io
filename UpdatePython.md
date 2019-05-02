@@ -10,9 +10,9 @@
 
 + 删除usr/loacl/bin 下指向的python连接
 
-```
-1. cd /usr/local/bin/ 
-2. ls -l /usr/local/bin | grep '../Library/Frameworks/Python.framework/Versions/3.6' | awk '{print $9}' | tr -d @ | xargs rm ```
+`1. cd /usr/local/bin/ `
+
+`2. ls -l /usr/local/bin | grep '../Library/Frameworks/Python.framework/Versions/3.6' | awk '{print $9}' | tr -d @ | xargs rm`
 
 ### 配置新版本环境
 + 更新配置文件中的路径
